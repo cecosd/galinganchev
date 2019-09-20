@@ -1,0 +1,54 @@
+.ftco-cover-1 {
+    background-position: inherit;
+}
+
+.parallax-header-image{
+    background-attachment: fixed;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-2 {
+    background: #000000;
+}
+
+.text-primary{
+    color: #BF7A20!important;
+}
+
+.testimonial-1 p {
+    font-size: .9rem;
+}
+
+.site-navbar .site-navigation .site-menu > li > a {
+    color: #fff !important;
+    border-bottom: 3px solid transparent;
+}
+
+.site-navbar .site-navigation .site-menu > li > a:hover {
+    border-bottom: 3px solid;
+}
+
+.site-navbar .site-navigation .site-menu .active {
+    color: #ff5533 !important;
+}
+
+.logo-title{
+    font-family: "Vladimir Script",serif;
+    font-size: 4rem;
+}
+
+.logo-subtitle{
+    font-family: "Vladimir Script",serif;  
+    font-size: 2rem; 
+}
+
+.site-navbar .site-navigation .site-menu > li > a {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 9px 0px;
+    color: #fff !important;
+    display: inline-block;
+    text-decoration: none !important;
+}
