@@ -10,7 +10,7 @@ $events = new WP_Query($get_events);
 ?>
 
 <div class="ftco-blocks-cover-1">
-  <div class="ftco-cover-1 overlay parallax-header-image" style="background-image: url('<?= $header['image']; ?>')">
+  <div class="ftco-cover-1 overlay parallax-header-image" style="background-image: url('<?=  bloginfo('template_directory') . "/images/galin-front-page-bg-1.jpg" ?>')">
     <div class="container">
       <div class="row align-items-center justify-content-center">
         <div class="col-lg-6 text-center">

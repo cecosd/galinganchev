@@ -2,7 +2,7 @@
 
 <footer class="site-footer">
   <div class="container">
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-md-6">
         <div class="row">
           <div class="col-md-7">
@@ -43,8 +43,8 @@
         <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
         </form>
       </div>
-    </div>
-    <div class="row pt-5 mt-5 text-center">
+    </div> -->
+    <div class="row text-center">
       <div class="col-md-12">
         <div class="border-top pt-5">
           <p>

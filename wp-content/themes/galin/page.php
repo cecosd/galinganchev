@@ -3,7 +3,7 @@
 <?php
 $header = get_field('header');
 ?>
-
+<?php while (have_posts()) : the_post(); ?>
 <div class="ftco-blocks-cover-1">
   <div class="ftco-cover-1 overlay parallax-header-image" style="background-image: url('<?= $header['image']; ?>')">
     <div class="container">
@@ -20,5 +20,15 @@ $header = get_field('header');
     </div>
   </div>
 </div>
+
+<div class="site-section bg-light" id="contact-section">
+  <div class="container">
+    <div class="row">
+        <?= the_content() ?>
+    </div>
+  </div>
+</div>
+<?php endwhile; ?>
+
 
 <?php get_footer(); ?>

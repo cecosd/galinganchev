@@ -51,7 +51,7 @@ add_action('wp_enqueue_scripts', 'load_stylesheets');
 
 function load_scripts()
 {
-    wp_register_script('jquery', get_template_directory_uri() . '/js/jquery-3.3.1.min.js', [], 1, 1);
+    wp_register_script('jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js', [], 1, 1);
     wp_enqueue_script('jquery');
     wp_register_script('popper', get_template_directory_uri() . '/js/popper.min.js', [], 1, 1);
     wp_enqueue_script('popper');
@@ -59,11 +59,11 @@ function load_scripts()
     wp_enqueue_script('bootstrap');
     wp_register_script('owlcarousel', get_template_directory_uri() . '/js/owl.carousel.min.js', [], 1, 1);
     wp_enqueue_script('owlcarousel');
-    wp_register_script('sticky', get_template_directory_uri() . '/jquery.sticky.js', [], 1, 1);
+    wp_register_script('sticky', get_template_directory_uri() . '/js/jquery.sticky.js', [], 1, 1);
     wp_enqueue_script('sticky');
-    wp_register_script('waypoints', get_template_directory_uri() . '/jquery.waypoints.min.js', [], 1, 1);
+    wp_register_script('waypoints', get_template_directory_uri() . '/js/jquery.waypoints.min.js', [], 1, 1);
     wp_enqueue_script('waypoints');
-    wp_register_script('animateNumber', get_template_directory_uri() . '/jquery.animateNumber.min.js', [], 1, 1);
+    wp_register_script('animateNumber', get_template_directory_uri() . '/js/jquery.animateNumber.min.js', [], 1, 1);
     wp_enqueue_script('animateNumber');
     wp_register_script('fancybox', get_template_directory_uri() . '/js/jquery.fancybox.min.js', [], 1, 1);
     wp_enqueue_script('fancybox');
@@ -73,6 +73,10 @@ function load_scripts()
     wp_enqueue_script('aos');
     wp_register_script('main', get_template_directory_uri() . '/js/main.js', [], 1, 1);
     wp_enqueue_script('main');
+    wp_register_script('moment', 'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js', [], 1, 1);
+    wp_enqueue_script('moment');
+    wp_register_script('datepicker', 'https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/locales/bootstrap-datepicker.en-GB.min.js', [], 1, 1);
+    wp_enqueue_script('datepicker');
     wp_register_script('custom', get_template_directory_uri() . '/custom.js', [], 1, 1);
     wp_enqueue_script('custom');
 }
