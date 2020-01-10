@@ -39,7 +39,7 @@ $contactsPanel = get_field('contacts_panel');
 
             <div class="form-group row">
                 <div class="col-md-12">
-                    <textarea name="" id="" class="form-control" placeholder="Write your message." cols="30" rows="10" required></textarea>
+                    <textarea name="" id="" class="form-control" placeholder="Write your message." cols="30" rows="6" required></textarea>
                 </div>
             </div>
             <div class="form-group row">
